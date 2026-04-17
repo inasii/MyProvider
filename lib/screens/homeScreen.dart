@@ -5,13 +5,14 @@ import 'package:internet_provider/screens/historyScreen.dart';
 import 'package:internet_provider/screens/loginScreen.dart';
 import 'package:internet_provider/screens/packageScreen.dart';
 import 'package:internet_provider/screens/paymentScreen.dart';
-import 'package:internet_provider/screens/profileScreen.dart';
+import 'package:internet_provider/screens/profileScreen.dart' hide SizedBox;
 import 'package:internet_provider/api/pulsaServices.dart';
 import '../models/paymentModel.dart';
 import '../theme/appframe.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 import 'package:intl/intl.dart';
+import 'package:flutter/src/widgets/basic.dart' hide SizedBox;
 
 
 class HomeScreen extends StatefulWidget {

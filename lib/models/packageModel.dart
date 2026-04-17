@@ -8,7 +8,6 @@ class InternetPackage {
   final int pricePerMonth;
   final bool isPopular;
   final List<String> features;
-
   const InternetPackage({
     required this.id,
     required this.name,

@@ -145,7 +145,6 @@ class _HistoryScreenState extends State<HistoryScreen> {
     );
   }
 }
-
  
 class _HistoryCard extends StatelessWidget {
   final PurchaseHistory item;
